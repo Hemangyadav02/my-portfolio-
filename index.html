@@ -1,29 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hemang Yadav | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>Hemang Yadav</h1>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-grid">
 
-  <section id="hero">
-    <img src="hemang.jpg" alt="Hemang Yadav" class="profile-img" />
-    <h2>Hi, I'm Hemang</h2>
-    <p>Aspiring AIML Engineer & CSE Student passionate about building things that matter.</p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
+    <!-- Project 1 -->
     <div class="project-card">
       <h3>Therma Rover</h3>
       <p>A thermal-sensing rover built for real-time temperature monitoring using Python and Arduino.</p>
@@ -33,30 +12,28 @@
       </ul>
       <a href="https://github.com/Hemangyadav02/THERMA-ROVER" target="_blank">View Project</a>
     </div>
-  </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <img src="hemang.jpg" alt="Hemang Yadav" class="profile-img" />
-    <p>Hey, I’m Hemang — someone who enjoys solving math problems (even if they don’t always go perfectly). I’m a logical thinker who genuinely enjoys taking on challenges. Whether I succeed or not, I’m always ready to give my best and learn from the experience.</p>
-    <p>I’m currently in my second year of B.Tech in Computer Science with a specialization in Artificial Intelligence and Machine Learning at SRM University, Chennai. Outside the classroom, I love going on spontaneous hikes and exploring small-scale business ideas — both of which keep me curious and grounded in real-world learning.</p>
-    <p><strong>Skills:</strong> Python, C++, C, SQL, DSA, Digital Image Processing, MySQL, OpenCV, Arduino</p>
-    <p><strong>Certifications:</strong> Python Programming (IBM), Data Science Tools (IBM), Image Processing & MATLAB Onramp (Mathworks), AWS Image Processing, C++ (Saylor), DSA in C (Udemy)</p>
-    <p><strong>Club:</strong> Active member of the Blockchain Club at SRM University</p>
-  </section>
+    <!-- Project 2 -->
+    <div class="project-card">
+      <h3>AI Resume Screening</h3>
+      <p>An AI-powered resume screening tool that ranks candidates based on job descriptions using NLP.</p>
+      <ul>
+        <li>Built with Python and scikit-learn for resume parsing and keyword matching.</li>
+        <li>Improves recruitment efficiency by automating candidate shortlisting.</li>
+      </ul>
+      <a href="https://github.com/Hemangyadav02/Resume-Screening" target="_blank">View Project</a>
+    </div>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Connect with me:</p>
-    <ul>
-      <li><a href="https://github.com/Hemangyadav02" target="_blank">GitHub</a></li>
-      <li><a href="mailto:yadavhemang2005@gmail.com">Email: yadavhemang2005@gmail.com</a></li>
-      <li><a href="https://www.linkedin.com/in/hemang-yadav-61a47b2a8" target="_blank">LinkedIn</a></li>
-    </ul>
-    <a href="Hemang Yadav CSE Intern Resume .pdf" class="btn" download>Download Resume</a>
-  </section>
+    <!-- Project 3 -->
+    <div class="project-card">
+      <h3>Future Me – Career Counsellor Chatbot</h3>
+      <p>A career guidance chatbot that provides personalized advice using OpenAI’s GPT API.</p>
+      <ul>
+        <li>Developed with Node.js and Express, deployed with frontend integration.</li>
+        <li>Requires OpenAI API key stored securely in a <code>.env</code> file.</li>
+      </ul>
+      <a href="https://github.com/Hemangyadav02/future-me-chatbot" target="_blank">View Project</a>
+    </div>
 
-  <footer>&copy; 2025 Hemang Yadav</footer>
-  <script src="script.js"></script>
-</body>
-</html>
+  </div>
+</section>
